@@ -232,6 +232,7 @@ body.dark-theme {
 }
 .button:hover {
   background-color: var(--first-color-alt);
+  transform: scale(1.05);
 }
 .button__header {
   display: none;
@@ -279,6 +280,10 @@ body.dark-theme {
   padding: 2rem 1.5rem;
   border-radius: 1rem;
   text-align: center;
+  transition: 0.3s;
+}
+.services__data:hover {
+  transform: scale(1.05);
 }
 .services__img {
   width: 135px;
@@ -354,6 +359,11 @@ body.dark-theme {
 .footer__social-link {
   font-size: 1.25rem;
   color: var(--title-color);
+  transition: 0.3s;
+}
+.footer__social-link:hover {
+  color: var(--text-color);
+  transform: scale(1.1);
 }
 .footer__copy {
   margin-top: 6rem;

@@ -102,6 +102,7 @@
 
     &:hover {
         background-color: var(--first-color-alt);
+        transform: scale(1.05);
     }
 
     &__header {
@@ -163,6 +164,10 @@
         padding: 2rem 1.5rem;
         border-radius: 1rem;
         text-align: center;
+        transition: 0.3s;
+        &:hover {
+            transform: scale(1.05);
+        }
     }
 
     &__img {
